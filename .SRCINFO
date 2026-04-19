@@ -1,6 +1,6 @@
 pkgbase = weave-merge
 	pkgdesc = Entity-level semantic merge CLI. Resolves conflicts at the function/class level instead of lines.
-	pkgver = 0.2.8
+	pkgver = 0.3.0
 	pkgrel = 1
 	url = https://github.com/Ataraxy-Labs/weave
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = weave-merge
 	makedepends = cargo
 	depends = glibc
 	depends = libgcc
-	source = weave-merge-0.2.8.tar.gz::https://github.com/Ataraxy-Labs/weave/archive/refs/tags/v0.2.8.tar.gz
-	sha256sums = 531a290b42d9cef867bbceaccda43341fc6c4eecdf0f4d5c1dcf99bbe121c32e
+	source = weave-merge-0.3.0.tar.gz::https://github.com/Ataraxy-Labs/weave/archive/refs/tags/v0.3.0.tar.gz
+	sha256sums = 6d640e769e084ac08a13032d8d91ecc7c3767ccaa47d12020acc79f450c89ff3
 
 pkgname = weave-merge
