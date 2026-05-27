@@ -1,6 +1,6 @@
 # Maintainer: Ben Fritsch <ich@abwesend.com>
 pkgname=weave-merge
-pkgver=0.3.2
+pkgver=0.3.4
 pkgrel=1
 pkgdesc="Entity-level semantic merge CLI. Resolves conflicts at the function/class level instead of lines."
 arch=('x86_64' 'aarch64')
@@ -12,7 +12,7 @@ depends=(
 )
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('422d7a70a9e547a6f1da49910c8fd091115f230dae2e88cb86c0c1339ff0409c')
+sha256sums=('683162625ed7765a37621628090134e78a85ea2985e8f65b79b85ee9612c3cb5')
 
 build() {
     cd "weave-$pkgver"
